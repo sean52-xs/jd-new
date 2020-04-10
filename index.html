@@ -1,0 +1,5670 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>京东商城</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="后盾网，PHP学习，网站设计，前段开发">
+	<meta name="description" content="后盾网，人人学后盾">
+	<link rel="stylesheet" type="text/css" href="./public/css/base.css">
+	<link rel="stylesheet" type="text/css" href="./public/css/module2.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.SuperSlide.2.1.3.js"></script>
+</head>
+<body>
+	<div id="top-adv">
+		<h2>快过年啦！快来买年货吧！</h2>
+	</div>
+	<div id="public-top">
+		<div id="shortcut">
+			<div id="shortcut-left" class="fn-left">
+				<ul>
+					<li class="icon-li"><i class="icon-fav"></i><a href="#">收藏京东商城</a></li>
+					<li><a href="#">360TOP奢饰品</a></li>
+					<li><a href="#">迷你挑</a></li>
+					<li><a href="#" class="no-db">京东好药师</a></li>
+				</ul>
+			</div>
+			<div id="shortcut-right" class="fn-right">
+				<ul>
+					<li>您好，欢迎来到京东商城！<a href="#" class="no-db">[登录]</a><a href="#">[免费注册]</a></li>
+					<li><a href="#">我的订单</a></li>
+					<li class="icon-li icon-dt "><!--li-activate 鼠标放上去加上这个class-->
+						<dl>
+							<dt><i class="icon-te"></i><a href="#">特色栏目</a></dt>
+							<dd class="fn-hide">
+								<p><a href="##">为我收藏</a></p>
+								<p><a href="##">视频购物</a></p>
+								<p><a href="##">视频购物</a></p>
+								<p><a href="##">视频购物</a></p>
+								<p><a href="##">视频购物</a></p>
+								<p><a href="##">视频购物</a></p>
+							</dd>
+						</dl>
+					</li>
+					<li><a href="#">手机京东</a></li>
+					<li class="icon-li icon-dt"><!--li-activate 鼠标放上去加上这个class-->
+						<dl>
+							<dt><i class="icon-te"></i><a href="#">企业服务</a></dt>
+							<dd class="fn-hide">
+								<p><a href="##">为我收藏</a></p>
+								<p><a href="##">视频购物</a></p>
+							</dd>
+						</dl>
+					</li>
+					<li class="icon-li icon-dt"><!--li-activate 鼠标放上去加上这个class-->
+						<dl>
+							<dt><i class="icon-te"></i><a href="#" class="no-db">客户服务</a></dt>
+							<dd class="fn-hide">
+								<p><a href="##">为我收藏</a></p>
+								<p><a href="##">视频购物</a></p>
+								<p><a href="##">视频购物</a></p>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- public-top结束 -->
+	<div id="hd-w">
+		<div id="header">
+			<div id="logo">
+				<a href="##"><img src="./images/logo.png"></a>
+				<a href="##" class="logo-ads"><img src="./images/logo_ads.png"></a>
+			</div>
+			<div id="search">
+				<form action="" method="post">
+				<div class="search-form">
+					<div class="search-form-left"></div>
+					<div class="search-form-center">
+						<!-- default 是焦点失去后的 默认属性 -->
+						<input type="text" name="" default="电脑，手机，家电" value="电脑，手机，家电" id="search-ip">
+					</div>
+					<div class="search-buttom">
+					<input type="button" value="搜索">
+					</div>
+					<div class="search-form-right"></div>
+				</div>
+				</form>
+				<div class="search-hot">
+					<span>热门搜索：</span>
+						<a href="#" class="hot-word">卡拉卡刷卡机</a>
+						<a href="#">热卖冬装</a>
+						<a href="#">热卖冬装</a>
+						<a href="#">热卖冬装</a>
+						<a href="#">热卖冬装</a>
+						<a href="#">i9390</a>
+						<a href="#">诺基亚800</a>
+				</div>
+			</div>
+			<!-- search结束 -->
+			<div id="header-cart">
+				 <div id="personal-cart">
+					<dl class=""><!--hover 是鼠标移上的class -->
+						<dt>
+							<i class="icon-account"></i>
+							<a href="#">我的京东</a>
+							<i class="icon-dropdown"></i>
+						</dt>
+						<dd>
+							<div class="cart-bar click">
+								<span class="fn-left">您好，请登录</span>
+								<!-- <a href="#" class="fn-right">登录京东</a> -->
+								<input type="submit" class="fn-right" name="" value="登录京东">
+							</div>
+							<div class="cart-info">
+								<ul>
+									<li><a href="#">待处理订单</a></li>
+									<li><a href="#">咨询回复</a></li>
+									<li><a href="#">咨询回复</a></li>
+									<li><a href="#">咨询回复</a></li>
+								</ul>
+								<ul class="cart-order">
+									<li><a href="#">我的订单&gt;</a></li>
+									<li><a href="#">我的关注&gt;</a></li>
+									<li><a href="#">我的积分&gt;</a></li>
+									<li><a href="#">为我推荐&gt;</a></li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+				 </div>
+				 <div id="shopping-cart">
+					<dl class=""><!--sp-hover 是鼠标移上的class -->
+						<dt>
+							<i class="sp-account"></i>
+							<span class="cart-sp">3</span>
+							<a href="#">去购物车结算</a>
+							<i class="sp-dropdown"></i>
+						</dt>
+						<div style="clear: both;"></div>
+						<dd>
+							购物车中还没有商品，赶快去选购吧！
+						</dd>
+					</dl>
+				 </div>
+			</div>
+			<!-- header-cart结束 -->
+		</div>
+		<!-- header结束 -->
+		<div id="nav">
+			<div id="nav-bg-left"></div>
+			<div id="cart">
+				<h2><a href="##">全部商品分类</a></h2>
+			</div>
+			<ul id="nav-list">
+				<li class="nav-activate"><a href="##">首页</a></li>
+				<li><a href="##">服装城</a></li>
+				<li><a href="##">迷你挑</a></li>
+				<li><a href="##">团购</a></li>
+				<li><a href="##">购物岛</a></li>
+				<li><a href="##">在线游戏</a></li>
+			</ul>
+			<div id="nav-bg-right"></div>
+			<div id="nav-ads"><a href=""><img src="./images/nav-ads.gif" alt=""></a></div><!-- 导航栏右边的小广告 -->
+			<div id="cart-left">
+				<ul id="cart-left-show">
+					<li class="item "><!--item-hover 是鼠标移上的class -->
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<div class="item-list">
+							<div class="item-list-l">
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-r">
+								<dl>
+									<dt><a href="#">促销活动</a></dt>
+									<dd>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#">推荐品牌</a></dt>
+									<dd>
+										<ul>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-close"></div>
+						</div>
+					</li>
+					<li class="item "><!--item-hover 是鼠标移上的class -->
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+							<i></i>
+						</span>
+						<div class="item-list">
+							<div class="item-list-l">
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-r">
+								<dl>
+									<dt><a href="#">促销活动</a></dt>
+									<dd>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#">推荐品牌</a></dt>
+									<dd>
+										<ul>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-close"></div>
+						</div>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<!-- <div class="item-list"></div> -->
+						<div class="item-list">
+							<div class="item-list-l">
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-r">
+								<dl>
+									<dt><a href="#">促销活动</a></dt>
+									<dd>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#">推荐品牌</a></dt>
+									<dd>
+										<ul>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-close"></div>
+						</div>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<!-- <div class="item-list"></div> -->
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<!-- <div class="item-list"></div> -->
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<!-- <div class="item-list"></div> -->
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<!-- <div class="item-list"></div> -->
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<div class="item-list">
+							<div class="item-list-l">
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-r">
+								<dl>
+									<dt><a href="#">促销活动</a></dt>
+									<dd>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#">推荐品牌</a></dt>
+									<dd>
+										<ul>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-close"></div>
+						</div>
+					</li>
+					<li class="item">
+						<span class="item-nav"><a href="##">图书</a>、<a href="##">电子书刊</a>、<a href="##">音像</a>
+						<i></i>
+						</span>
+						<div class="item-list"><!-- <div class="item-list"></div> -->
+							<div class="item-list-l">
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="##">生活电器</a></dt>
+									<dd>
+										<a href="##">空气净化器</a>
+										<a href="##">吸尘器/除螨仪</a>
+										<a href="##">取暖电器</a>
+										<a href="##">扫地机器人</a>
+										<a href="##">蒸汽拖把/拖地机</a>
+										<a href="##">干衣机</a>
+										<a href="##">电话机</a>
+										<a href="##">饮水机</a>
+										<a href="##">净水器</a>
+										<a href="##">除湿机</a>
+										<a href="##">挂烫机/熨斗</a>
+										<a href="##">加湿器</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-r">
+								<dl>
+									<dt><a href="#">促销活动</a></dt>
+									<dd>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+										<a href="##"><img src="./images/cate-mg.jpg"></a>
+									</dd>
+								</dl>
+								<dl>
+									<dt><a href="#">推荐品牌</a></dt>
+									<dd>
+										<ul>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+											<li><a href="##">飞利浦旗舰店</a></li>
+											<li><a href="##">TCL</a></li>
+											<li><a href="##">苏泊尔旗舰店</a></li>
+											<li><a href="##">老板</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="item-list-close"></div>
+						</div>
+					</li>
+				</ul>
+				<div class="cart-left-nav">
+					<span>全部商品分类</span>
+				</div>
+			</div>
+		</div>
+		<!-- nav结束 -->
+		<div id="header-content">
+			<!-- Slide -->
+			<div class="rotation">
+				<div class="rotation-con">
+					<ul class="rotation-ul">
+						<li class="rotation-list">
+							<div>
+								<dl>
+									<dt><a href="#"><img src="./images/slide_b_1.jpg"></a></dt>
+									<dd>
+										<a href="#"><img src="./images/slide_b_1_1.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_2.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_3.jpg"></a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="rotation-list">
+							<div>
+								<dl>
+									<dt><a href="#"><img src="./images/slide_b_2_1.jpg"></a></dt>
+									<dd>
+										<a href="#"><img src="./images/slide_b_2_2.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_3.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_1.jpg"></a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="rotation-list">
+							<div>
+								<dl>
+									<dt><a href="#"><img src="./images/slide_b_3_1.jpg"></a></dt>
+									<dd>
+										<a href="#"><img src="./images/slide_b_1_1.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_2.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_3.jpg"></a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="rotation-list">
+							<div>
+								<dl>
+									<dt><a href="#"><img src="./images/slide_b_4_1.jpg"></a></dt>
+									<dd>
+										<a href="#"><img src="./images/slide_b_1_3.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_2.jpg"></a>
+										<a href="#"><img src="./images/slide_b_1_1.jpg"></a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="slide-nav hd">
+					<ul>
+						<li class="on"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+					</ul>
+				</div>
+
+				<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+				<a class="prev" href="javascript:void(0)"></a>
+				<a class="next" href="javascript:void(0)"></a>
+			</div>
+		    <!-- /Slide -->
+			
+			<!-- rotation结束 -->
+			<div id="news">
+				<div id="news-pic"><a href="#"><img src="./images/new-pic.jpg"></a></div>
+				<div id="md-new">
+					<div class="module md-top">
+						<h2>京东快报</h2>
+						<a href="#">更多快报&gt;</a>
+					</div>
+					<div class="md-list">
+						<ul>
+							<li><a href="#">迎手机节，幸运大抽奖！</a></li>
+							<li><a href="#">hhh汽车用品感恩节大回馈！</a></li>
+							<li><a href="#">迎手机节，很幸运大抽奖！</a></li>
+							<li><a href="#">汽车用品感恩节大回馈！</a></li>
+							<li><a href="#">迎手机节，我很幸运大抽奖！</a></li>
+							<li><a href="#">汽车用品真的很感恩节大回馈！</a></li>
+							<li><a href="#">迎手机节，幸运大抽奖！</a></li>
+							<li><a href="#">汽车用品感恩节大回馈！</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="md-tabs">
+					<div class="module hd"><!-- module 是一个公共的的类 -->
+						<ul>
+							<li class="hover"><a href="#">充值</a></li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">旅游</a></li>
+							<li><a href="#">彩票</a></li>
+							<li><a href="#">游戏</a></li>
+						</ul>
+					</div>
+					<div class="md-content">
+						<div class="md-content-cz ul"><!-- fn-hide 隐藏的class -->
+							<form action="" method="post">
+							<table>
+								<tr>
+									<th>手机号码：</th>
+									<td>
+										<input class="md-content-ip" type="text" default="请输入手机号码" name="" value="请输入手机号码">
+										<p>支持移动、联通、电信</p>
+									</td>
+								</tr>
+								<tr>
+									<th>面值：</th>
+									<td class="md-content-sp">
+										<select id="sele">
+											<option>10元</option>
+											<option>30元</option>
+											<option>50元</option>
+											<option>100元</option>
+											<option>200元</option>
+										</select>
+										<span>99.80-199.70</span>
+										
+									</td>
+								</tr>
+								<tr>
+									<th></th>
+									<td class="click">
+										<input type="submit" name="" value="点击充值">
+										<a href="#">香港旅游，返50%积分!</a>
+									</td>
+								</tr>
+							</table>
+							</form>
+						</div>
+						<div class="md-content-tour ul"><!-- fn-hide 隐藏的class -->
+							<div class="tour-title">
+								<ul>
+									<li class="tour-hover"><a href="#">机票</a></li>
+									<div class="tour-nav"></div>
+									<li><a href="#">酒店</a></li>
+									<div class="tour-nav"></div>
+									<li><a href="#">旅游</a></li>
+									<div class="tour-nav"></div>
+									<li><a href="#">租车</a></li>
+								</ul>
+							</div>
+							<div class="tour-activate">
+								<form action="" method="post">
+								<table>
+									<tr class="">
+										<th>出发城市：</th>
+										<td class="tour-ac">
+											<select id="sele" class="tour-select">
+												<option>B-北京</option>
+												<option>G-广州</option>
+												<option>S-深圳</option>
+												<option>S-上海</option>
+												<option>Z-湛江</option>
+											</select>
+										</td>
+										<th>到达城市：</th>
+										<td class="">
+											<select id="sele" class="tour-select">
+												<option>B-北京</option>
+												<option>G-广州</option>
+												<option>S-深圳</option>
+												<option>S-上海</option>
+												<option>Z-湛江</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<th>出发日期：</th>
+										<td class="">
+											<select id="sele" class="tour-date">
+												<option>2018</option>
+												<option>2019</option>
+											</select>
+										<!-- <span>年</span> -->
+										</td>
+										<td>年</td>
+										<td class="">
+											<select id="sele" class="tour-date-moon">
+												<option>01</option>
+												<option>02</option>
+												<option>03</option>
+												<option>04</option>
+												<option>05</option>
+												<option>06</option>
+												<option>07</option>
+												<option>08</option>
+												<option>09</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+											</select>
+										<!-- <span>月</span> -->
+										</td>
+										<td>月</td>
+										<td class="">
+											<select id="sele" class="tour-date-moon">
+												<option>01</option>
+												<option>02</option>
+												<option>03</option>
+												<option>04</option>
+												<option>05</option>
+												<option>06</option>
+												<option>07</option>
+												<option>08</option>
+												<option>09</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										<!-- <span>日</span> -->
+										</td>
+										<td>日</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td class="click">
+											<input type="submit" name="" value="机票查询">
+											<a href="#">错峰出行更划算!</a>
+										</td>
+									</tr>
+								</table>
+								</form>
+							</div>
+						</div>
+						<div class="md-content-lt ul">
+							<div>
+								<p>真的是没时间做了！所以没做</p>
+								<a class="a1" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a2" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a3" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a4" href="./index3.html" title="点我呀！" target="_blank"></a>
+							</div>
+						</div>
+						<div class="md-content-game ul">
+							<div>
+								<p>真的是没时间做了！所以没做</p>
+								<a class="a1" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a2" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a3" href="./index3.html" title="点我呀！" target="_blank"></a>
+								<a class="a4" href="./index3.html" title="点我呀！" target="_blank"></a>
+							</div>
+						</div>
+					</div>
+					<!-- md-content结束 -->
+				</div>
+				<!-- md-tabs结束 -->
+
+			</div>
+			<!-- news结束 -->
+		</div>
+		<!-- header-content结束 -->
+		<div id="ads-tabs">
+			<div class="module hd"><!-- module 是一个公共的的类 -->
+				<ul class="ads-list">
+					<li class="hover"><a href="#">疯狂抢购</a>
+					</li><!-- hover 鼠标经过的class -->
+					<li class=""><a href="#">热卖商品</a></li>
+					<li class=""><a href="#">猜你喜欢</a></li>
+					<li><a href="#">热评商品</a></li>
+					<li><a href="#">新品上架</a></li>
+				</ul>
+			</div>
+			<div class="ads-content">
+				<div class="ads-tabs-crezed">
+					<ul>
+						<li>
+							<div class="ra-list">
+								<img src="./images/c-aaa.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/c-aaa.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/c-aaa.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/c-aaa.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/c-aaa.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ads-tabs-crezed结束 -->
+				<div class="ads-tabs-hotsale">
+					<ul>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as1.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as1.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as1.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as1.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as1.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ads-tabs-hotsale结束 -->
+				<div class="ads-tabs-like">
+					<ul>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as2.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as2.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as2.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as2.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as2.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ads-tabs-like 结束 -->
+				<div class="ads-tabs-discuss">
+					<ul>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as3.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as3.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as3.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as3.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as3.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ads-tabs-discuss 结束 -->
+				<div class="ads-tabs-new">
+					<ul>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as4.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as4.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as4.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as4.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+						<li>
+							<div class="ra-list">
+								<img src="./images/as4.jpg">
+								<i>直降</i>
+							</div>
+							<div class="ra-explain">
+								<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+							</div>
+							<div class="price">
+								<span>京东价：</span>
+								&#165;168.98
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ads-tabs-new 结束 -->
+			</div>
+		</div>
+		<!-- ads-tabs结束 -->
+		<div id="side-ads">
+			<!-- module 是一个公共的的类 -->
+			<div class="module">
+				<h2>京东首发</h2>
+			</div>
+			<div class="side-content">
+				<div class="side-content-top">
+					<div class="side-img">
+						<a href="#"><img src="./images/a.jpg"></a>
+					</div>
+					<div class="side-con">
+						<div class="side-con-title">
+							<h2>艾迪宝属自己的品牌</h2>
+							<span>首发</span>
+						</div>
+						<p>采用的高弹碳纤维材质，击球回弹性佳，在省力的同时还能可以提升自己的打球能力。</p>
+					</div>
+					
+				</div>
+				<div class="side-content-bottom">
+					<div class="side-img">
+						<a href="#"><img src="./images/a.jpg"></a>
+					</div>
+					<div class="side-con">
+						<div class="side-con-title">
+							<h2>艾迪宝属于自己的</h2>
+							<span>首发</span>
+						</div>
+						<p>采用的高弹碳纤维材质，击球回弹性佳，在省力的同时还能可以提升自己的打球能力。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- side-ads结束 -->
+		<div id="xs-qiang" class="module-modified">
+			<h2 class="module-mo-title">
+				<span>限时抢购</span>
+			</h2>
+			<div class="module-mo-content">
+				<ul>
+					<li>
+						<div class="mo-data" endtime="2018-12-21 11:59:59">
+							剩余<span>01</span>时<span>10</span>分<span>51</span>秒
+						</div>
+						<div class="mo-list">
+							<img src="./images/as3.jpg">
+							<i><p>9.4</p><p class="mo-list-p">折</p></i>
+						</div>
+						<div class="mo-explain">
+							<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+						</div>
+						<div class="mo-price">
+							<span>抢购价：</span>
+							&#165;168.98
+						</div>
+					</li>
+					<li>
+						<div class="mo-data" endtime="2018-11-21 11:59:59">
+							剩余<span>01</span>时<span>10</span>分<span>51</span>秒
+						</div>
+						<div class="mo-list">
+							<img src="./images/as3.jpg">
+							<i><p>9.4</p><p class="mo-list-p">折</p></i>
+						</div>
+						<div class="mo-explain">
+							<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+						</div>
+						<div class="mo-price">
+							<span>抢购价：</span>
+							&#165;168.98
+						</div>
+					</li>
+					<li>
+						<div class="mo-data" endtime="2018-11-25 21:59:59">
+							剩余<span>01</span>时<span>10</span>分<span>51</span>秒
+						</div>
+						<div class="mo-list">
+							<img src="./images/as3.jpg">
+							<i><p>9.4</p><p class="mo-list-p">折</p></i>
+						</div>
+						<div class="mo-explain">
+							<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+						</div>
+						<div class="mo-price">
+							<span>抢购价：</span>
+							&#165;168.98
+						</div>
+					</li>
+					<li>
+						<div class="mo-data" endtime="2018-11-23 20:59:59">
+							剩余<span>01</span>时<span>10</span>分<span>51</span>秒
+						</div>
+						<div class="mo-list">
+							<img src="./images/as3.jpg">
+							<i><p>9.4</p><p class="mo-list-p">折</p></i>
+						</div>
+						<div class="mo-explain">
+							<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+						</div>
+						<div class="mo-price">
+							<span>抢购价：</span>
+							&#165;168.98
+						</div>
+					</li>
+					<li>
+						<div class="mo-data" endtime="2018-11-22 23:59:59">
+							剩余<span>01</span>时<span>10</span>分<span>51</span>秒
+						</div>
+						<div class="mo-list">
+							<img src="./images/as3.jpg">
+							<i><p>9.4</p><p class="mo-list-p">折</p></i>
+						</div>
+						<div class="mo-explain">
+							<h3>羊毛牛毛羽绒服很便宜 买就送真皮手套</h3>
+						</div>
+						<div class="mo-price">
+							<span>抢购价：</span>
+							&#165;168.98
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- xs-qiang结束 -->
+		<div id="gp-b">
+			<div id="g-buying" class="module-modified">
+				<h2 class="module-mo-title">
+					<span>今日团购</span>
+					<a href="#">更多团购&gt;</a>
+				</h2>
+				<div class="module-mo-content">
+					<div class="mo-content-explain">
+						<a href="#">
+							采用的高弹碳纤维材质，击球回弹性佳，在省力的同时还能可以提升自己的打球能力。击球回弹性佳，在省力的同时还能可以提升自己
+						</a>
+						<p>原价：<del>188.00</del></p>
+					</div>
+					<div class="mo-content-img">
+						<a href="#"><img src="./images/aa.jpg"></a>
+					</div>
+					<div class="mo-content-gp">
+						<p>团购价：<b>&#165;138.00</b></p>
+						<a href="#"><em class="fn-hide">详情</em></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" id="gp-b-img"><img src="./images/ms2.jpg" alt=""></a>
+		</div>
+		<!-- gp-b结束 -->
+	</div>
+	<!-- hd-w结束 -->
+	<div class="ct-nav"></div>
+
+	<div id="content-list">
+		<div id="computer" class="common">
+			<div class="computer-content common-content">
+				<div class="computer-list">
+					<div class="list-top">
+						<!-- 电脑数码 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>超级本</a></li>
+								<li><a href="#"><b>.</b>笔记本</a></li>
+								<li><a href="#"><b>.</b>台式电脑</a></li>
+								<li><a href="#"><b>.</b>CPU</a></li>
+								<li><a href="#"><b>.</b>打印机</a></li>
+								<li><a href="#"><b>.</b>单反相机</a></li>
+								<li><a href="#"><b>.</b>超级本</a></li>
+								<li><a href="#"><b>.</b>笔记本</a></li>
+								<li><a href="#"><b>.</b>台式电脑</a></li>
+								<li><a href="#"><b>.</b>CPU</a></li>
+								<li><a href="#"><b>.</b>打印机</a></li>
+								<li><a href="#"><b>.</b>单反相机</a></li>
+								<li><a href="#"><b>.</b>台式电脑</a></li>
+								<li><a href="#"><b>.</b>CPU</a></li>
+								<li><a href="#"><b>.</b>打印机</a></li>
+								<li><a href="#"><b>.</b>单反相机</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="#"><img src="./images/ci-ads.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">笔记本</a></li>
+							<li class=""><a href="#">数码影音</a></li>
+							<li><a href="#">DIY攒机</a></li>
+							<li><a href="#">办公打印</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="adlet">
+					<ul>
+						<li class="adlet-a1"><a href="#"></a></li>
+						<li class="adlet-a2"><a href="#"></a></li>
+					</ul>
+				</div>
+				<a href="#"><img src="./images/catead1.jpg" alt=""></a>
+				<a href="#"><img src="./images/catead2.jpg" alt=""></a>
+			</div>
+			<!-- computer 结束-->
+			<!-- computer电脑数码 结束 -->
+		</div>
+		<div id="appliance" class="common">
+			<div class="appliance-content common-content">
+				<div class="appliance-list">
+					<div class="list-top">
+						<!-- 家电通讯 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>手机</a></li>
+								<li><a href="#"><b>.</b>手机配件</a></li>
+								<li><a href="#"><b>.</b>话费补贴</a></li>
+								<li><a href="#"><b>.</b>空调</a></li>
+								<li><a href="#"><b>.</b>洗衣机</a></li>
+								<li><a href="#"><b>.</b>平板电视</a></li>
+								<li><a href="#"><b>.</b>冰箱</a></li>
+								<li><a href="#"><b>.</b>手机</a></li>
+								<li><a href="#"><b>.</b>手机配件</a></li>
+								<li><a href="#"><b>.</b>话费补贴</a></li>
+								<li><a href="#"><b>.</b>空调</a></li>
+								<li><a href="#"><b>.</b>洗衣机</a></li>
+								<li><a href="#"><b>.</b>平板电视</a></li>
+								<li><a href="#"><b>.</b>冰箱</a></li>
+								<li><a href="#"><b>.</b>平板电视</a></li>
+								<li><a href="#"><b>.</b>冰箱</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="#"><img src="./images/ci-ads.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="appliance-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">大家电</a></li>
+							<li class=""><a href="#">小家电</a></li>
+							<li><a href="#">手机通讯</a></li>
+							<li><a href="#">汽车五金</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<!-- <div class="appliance-ads common-ads"></div> -->
+			<div class="appliance-ads computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="adlet">
+					<ul>
+						<li class="adlet-app1"><a href="#"></a></li>
+						<li class="adlet-app2"><a href="#"></a></li>
+					</ul>
+				</div>
+				<a href="#"><img src="./images/catead1.jpg" alt=""></a>
+				<a href="#"><img src="./images/catead2.jpg" alt=""></a>
+			</div>
+		<!-- appliance家电通讯 结束-->
+		</div>
+		<!-- beauty -->
+		<div id="beauty" class="common">
+			<div class="beauty-content computer-content common-content">
+				<div class="beauty-list computer-list">
+					<div class="list-top">
+						<!-- 丽人 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>女装</a></li>
+								<li><a href="#"><b>.</b>女鞋</a></li>
+								<li><a href="#"><b>.</b>面部护理</a></li>
+								<li><a href="#"><b>.</b>魅力彩妆</a></li>
+								<li><a href="#"><b>.</b>身体护理</a></li>
+								<li><a href="#"><b>.</b>香水</a></li>
+								<li><a href="#"><b>.</b>女装</a></li>
+								<li><a href="#"><b>.</b>女鞋</a></li>
+								<li><a href="#"><b>.</b>面部护理</a></li>
+								<li><a href="#"><b>.</b>魅力彩妆</a></li>
+								<li><a href="#"><b>.</b>身体护理</a></li>
+								<li><a href="#"><b>.</b>香水</a></li>
+								<li><a href="#"><b>.</b>魅力彩妆</a></li>
+								<li><a href="#"><b>.</b>身体护理</a></li>
+								<li><a href="#"><b>.</b>香水</a></li>
+								<li><a href="#"><b>.</b>女装</a></li>
+								<li><a href="#"><b>.</b>女鞋</a></li>
+								<li><a href="#"><b>.</b>面部护理</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="#"><img src="./images/cate-ie1.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="beauty-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">服装服饰</a></li>
+							<li class=""><a href="#">个护化妆</a></li>
+							<li><a href="#">时尚搭配</a></li>
+							<li><a href="#">女士健康</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list" >
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="beauty-ads computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="beauty-ads-info module-modified">
+					<h2 class="module-mo-title">
+						<span>时尚资讯</span>
+					</h2>
+					<div class="">
+						<ul>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+							<li><b>.</b><a href="#">京东被子节第二季盛惠专场低至5折</a></li>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="#"><img src="./images/nead.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- /beauty 丽人结束 -->
+		<!-- menfolk -->
+		<div id="menfolk" class="common">
+			<div class="menfolk-content computer-content common-content">
+				<div class="beauty-list computer-list">
+					<div class="list-top">
+						<!-- 男士 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>男装</a></li>
+								<li><a href="#"><b>.</b>男鞋</a></li>
+								<li><a href="#"><b>.</b>男士护理</a></li>
+								<li><a href="#"><b>.</b>时尚男包</a></li>
+								<li><a href="#"><b>.</b>男士钟表</a></li>
+								<li><a href="#"><b>.</b>火机烟具</a></li>
+								<li><a href="#"><b>.</b>男装</a></li>
+								<li><a href="#"><b>.</b>男鞋</a></li>
+								<li><a href="#"><b>.</b>男士护理</a></li>
+								<li><a href="#"><b>.</b>时尚男包</a></li>
+								<li><a href="#"><b>.</b>男士钟表</a></li>
+								<li><a href="#"><b>.</b>火机烟具</a></li>
+								<li><a href="#"><b>.</b>男装</a></li>
+								<li><a href="#"><b>.</b>男鞋</a></li>
+								<li><a href="#"><b>.</b>男士护理</a></li>
+								<li><a href="#"><b>.</b>时尚男包</a></li>
+								<li><a href="#"><b>.</b>男士钟表</a></li>
+								<li><a href="#"><b>.</b>火机烟具</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="#"><img src="./images/cate-ie1.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="beauty-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">服装服饰</a></li>
+							<li class=""><a href="#">个护化妆</a></li>
+							<li><a href="#">时尚搭配</a></li>
+							<li><a href="#">女士健康</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="beauty-ads computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="beauty-ads-info">
+					<div class="menfolk-info">
+						<ul>
+							<li><b>.</b><a href="#">运动户外往期团精品汇！开抢！</a></li>
+							<li><b>.</b><a href="#">京东被子节第二季盛惠专场低至5折</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="#"><img src="./images/ms1.jpg" alt=""></a>
+				<a href="#"><img src="./images/ms2.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- menfolk 男士结束-->
+		<!-- life  -->
+		<div id="life" class="common">
+			<div class="life-content computer-content common-content">
+				<div class="life-list computer-list">
+					<div class="list-top">
+						<!-- 生活专区 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>家具</a></li>
+								<li><a href="#"><b>.</b>灯具</a></li>
+								<li><a href="#"><b>.</b>家纺</a></li>
+								<li><a href="#"><b>.</b>生活日用</a></li>
+								<li><a href="#"><b>.</b>清洁用品</a></li>
+								<li><a href="#"><b>.</b>餐具</a></li>
+								<li><a href="#"><b>.</b>水具/酒具</a></li>
+								<li><a href="#"><b>.</b>家具</a></li>
+								<li><a href="#"><b>.</b>灯具</a></li>
+								<li><a href="#"><b>.</b>家纺</a></li>
+								<li><a href="#"><b>.</b>生活日用</a></li>
+								<li><a href="#"><b>.</b>清洁用品</a></li>
+								<li><a href="#"><b>.</b>餐具</a></li>
+								<li><a href="#"><b>.</b>水具/酒具</a></li>
+								<li><a href="#"><b>.</b>家具</a></li>
+								<li><a href="#"><b>.</b>灯具</a></li>
+								<li><a href="#"><b>.</b>家纺</a></li>
+								<li><a href="#"><b>.</b>生活日用</a></li>
+								<li><a href="#"><b>.</b>清洁用品</a></li>
+								<li><a href="#"><b>.</b>餐具</a></li>
+								<li><a href="#"><b>.</b>水具/酒具</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="#"><img src="./images/ci-ads.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="life-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">家居家纺</a></li>
+							<li class=""><a href="#">厨具餐具</a></li>
+							<li><a href="#">家具家装</a></li>
+							<li><a href="#">机票酒店</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="not-con ul">
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as2.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as1.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as3.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+								<li>
+									<div class="not-img">
+										<a href="#"><img src="./images/as4.jpg"></a>
+									</div>
+									<div class="not-info">
+										<p><a href="#">i5强劲散热超级炫酷！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="life-ads computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="adlet">
+					<a href="#">
+						<em class="fn-hide">360top</em>
+					</a>
+				</div>
+				<a href="#"><img src="./images/ms1.jpg" alt=""></a>
+				<a href="#"><img src="./images/ms2.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- life 生后专区结束 -->
+
+		<!--food 食品母婴 -->
+		<div id="food" class="public common">
+			<div class="food-content computer-content common-content">
+				<div class="food-list computer-list">
+					<div class="list-top">
+						<!-- 食品母婴 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>进口食品</a></li>
+								<li><a href="#"><b>.</b>地方特产</a></li>
+								<li><a href="#"><b>.</b>休闲食品</a></li>
+								<li><a href="#"><b>.</b>酒水冲调</a></li>
+								<li><a href="#"><b>.</b>生鲜食品</a></li>
+								<li><a href="#"><b>.</b>粮油调味</a></li>
+								<li><a href="#"><b>.</b>进口食品</a></li>
+								<li><a href="#"><b>.</b>地方特产</a></li>
+								<li><a href="#"><b>.</b>休闲食品</a></li>
+								<li><a href="#"><b>.</b>酒水冲调</a></li>
+								<li><a href="#"><b>.</b>生鲜食品</a></li>
+								<li><a href="#"><b>.</b>粮油调味</a></li>
+								<li><a href="#"><b>.</b>进口食品</a></li>
+								<li><a href="#"><b>.</b>地方特产</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="http://www.baidu.com"><img src="./images/f1.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="food-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class=""><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class="hover"><a href="#">中国味道</a></li>
+							<li class=""><a href="#">环球美食</a></li>
+							<li><a href="#">母婴用品</a></li>
+							<li><a href="#">母婴食品</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="food-ads computer-ads common-ads">
+				<div class="module-modified computer-ads-con">
+					<h2 class="module-mo-title">
+						<span>品牌旗舰店</span>
+						<a href="#">更多品牌&gt;</a>
+					</h2>
+					<div class="ads-bd">
+						<ul>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+							<li><a href="#"><img src="./images/pp1.gif"></a></li>
+							<li><a href="#"><img src="./images/pp2.gif"></a></li>
+							<li><a href="#"><img src="./images/pp3.gif"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="beauty-ads-info module-modified">
+					<h2 class="module-mo-title">
+						<span>特价促销</span>
+					</h2>
+					<div class="ads-info">
+						<ul>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+							<li><b>.</b><a href="#">京东被子节第二季盛惠专场低至5折</a></li>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+							<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--food 食品母婴 结束-->
+
+		<!-- books 图书音像 -->
+		<div id="books" class="public common">
+			<div class="books-content food-content computer-content common-content">
+				<div class="books-list food-list computer-list">
+					<div class="list-top">
+						<!-- 图书音像 -->
+					</div>
+					<div class="list-bottom">
+						<div class="list-title">
+							<ul>
+								<li><a href="#"><b>.</b>电子书刊</a></li>
+								<li><a href="#"><b>.</b>小说</a></li>
+								<li><a href="#"><b>.</b>影视</a></li>
+								<li><a href="#"><b>.</b>经管</a></li>
+								<li><a href="#"><b>.</b>音乐</a></li>
+								<li><a href="#"><b>.</b>生活</a></li>
+								<li><a href="#"><b>.</b>教育音像</a></li>
+								<li><a href="#"><b>.</b>少儿</a></li>
+								<li><a href="#"><b>.</b>电子书刊</a></li>
+								<li><a href="#"><b>.</b>小说</a></li>
+								<li><a href="#"><b>.</b>影视</a></li>
+								<li><a href="#"><b>.</b>经管</a></li>
+								<li><a href="#"><b>.</b>音乐</a></li>
+								<li><a href="#"><b>.</b>生活</a></li>
+								<li><a href="#"><b>.</b>教育音像</a></li>
+								<li><a href="#"><b>.</b>少儿</a></li>
+							</ul>
+						</div>
+						<div class="list-img">
+							<a href="http://www.baidu.com"><img src="./images/f1.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="food-details computer-details details">
+					<div class="details-list hd"><!-- module 是一个公共的的类 -->
+						<ul class="de-ul">
+							<li class="hover"><a href="#">特价商品</a>
+							</li><!-- hover 鼠标经过的class -->
+							<li class=""><a href="#">中国味道</a></li>
+							<li class=""><a href="#">环球美食</a></li>
+							<li><a href="#">母婴用品</a></li>
+							<li><a href="#">母婴食品</a></li>
+						</ul>
+					</div>
+					<div class="details-content">
+						<!-- 特价商品 del-->
+						<!-- <div class="fn-hide"> -->
+						<div>
+							<ul class="dl-con ul">
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li class="dl-li-1">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/sp-ads.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- 小轮播图 -->
+							<div class="details-rot">
+								<div class="slide-db">
+									<ul>
+										<li class="details-rot-list">
+											<a href="#"><img src="./images/cs1.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs2.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs3.jpg"></a>
+										</li>
+										<li class="details-rot-list ">
+											<a href="#"><img src="./images/cs4.jpg"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="slide-nav hd">
+									<ul>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- 小轮播图结束 -->
+							<!-- 特价商品外面的div要删 del-->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+						<div class="details-notebook">
+							<ul class="dl-con hover ul">
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+								<li class="">
+									<div class="dl-info">
+										<p><a href="#">i5强劲散热办公利器！</a></p>
+										<p class="price">&#165;1988.00</p>
+									</div>
+									<div class="dl-img">
+										<a href="#"><img src="./images/a1.jpg"></a>
+									</div>
+								</li>
+							</ul>
+							<!-- details-notebook 结束 -->
+						</div>
+					<!-- details-content 结束-->
+					</div>
+				</div>
+			</div>
+			<div class="books-ads food-ads computer-ads common-ads">
+				<div class="books-ads-info">
+					<div class="info-title hd">
+						<ul class="de-ul">
+							<li class="hover ">图书榜</li><!-- hover 鼠标经过的class -->
+							<li class="">影视榜</li>
+							<li class="">音乐榜</li>
+							<li class="">教育榜</li>
+							<li class="li-1">电子书榜</li>
+						</ul>
+					</div>
+					<div class="info-content">
+						<ul>
+							<li class="info-con-1">
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版):每一天都是美好的，加油！</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-2">
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-3">
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li class="info-con-1">
+								<span>2</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-2">
+								<span>2</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-3">
+								<span>2</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版):每一天都是美好的，加油！</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li class="info-con-1">
+								<span>3</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-2">
+								<span>3</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-3">
+								<span>3</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版):每一天都是美好的，加油！</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li class="info-con-1">
+								<span>4</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-2">
+								<span>4</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-3">
+								<span>4</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版):每一天都是美好的，加油！</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li class="info-con-1">
+								<span>5</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-2">
+								<span>5</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li class="info-con-3">
+								<span>5</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版):每一天都是美好的，加油！</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">东野奎吾《解忧杂货店》(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">正能量(全球特别版)</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：挪威的森林（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+							<li>
+								<span>1</span>
+								<div class="bookslist">
+									<a href="#">村上春树：寻羊冒险记（精装）</a>
+								</div>
+								<div class="price">
+									&#165;23:50
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- books 图书音像结束 -->
+
+		<!-- hot 热门 -->
+		<div id="hot-topic" class="public common">
+			<div id="hot" class="common-content">
+				<ul>
+					<li>
+						<div class="hot-info-1 beauty-ads-info module-modified">
+							<h2 class="module-mo-title">
+								<span>热门晒单</span>
+								<!-- <ul></ul> -->
+							</h2>
+							<div class="ads-info">
+								<ul>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho1.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho2.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<!-- <div class="fn-hide"> -->
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho3.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho2.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<!-- </div> -->
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="hot-info-2 beauty-ads-info module-modified">
+							<h2 class="module-mo-title">
+								<span>热门活动</span>
+							</h2>
+							<div class="ads-info ads-exe">
+								<ul>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho3.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho2.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<!-- <div class="fn-hide"> -->
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho3.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho2.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<li>
+										<div class="hot-img">
+											<a href="#">
+												<img src="./images/ho1.jpg">
+												<b></b>
+											</a>
+										</div>
+										<div class="hot-des">
+											<p><a href="#">非常漂亮的兔耳朵发夹</a></p>
+											<div>
+												<a href="#">
+													非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹非常漂亮的兔耳朵发夹
+												</a>
+											</div>
+										</div>
+										<div class="hot-tu"></div>
+									</li>
+									<!-- </div> -->
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="common-ads hot-ads">
+				<div class="beauty-ads-info module-modified">
+					<h2 class="module-mo-title">
+						<span>在线阅读</span>
+						<a href="#">更多在线阅读&gt;</a>
+					</h2>
+					<div class="ads-info">
+						<div class="ads-info-l">
+							<a href="#"><img src="./images/a1.jpg"></a>
+						</div>
+						<div class="ads-info-r">
+							<ul>
+								<li><b>.</b><a href="#">东野奎吾《解忧杂货店》(全球特别版)</a></li>
+								<li><b>.</b><a href="#">京东被子节第二季盛惠专场低至5折</a></li>
+								<li><b>.</b><a href="#">璀璨水晶 施华洛世奇盛惠专场</a></li>
+								<li><b>.</b><a href="#">村上春树：寻羊冒险记（精装版）</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="take">
+					<h2>订阅促销信息</h2>
+					<form action="" method="post">
+						<input class="input-field" type="text" name="" default="请输入您的Email地址" value="请输入您的Email地址">
+						<input class="input-button" type="submit" name="dosubmit" value="订阅">
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- hot 热门结束 -->
+		<!-- content-list结束 -->
+	</div>
+
+	<!-- global-footer 页脚  -->
+	<div id="global-footer">
+		<div id="serve" class="link">
+			<div class="serve-page">
+				<dl class="serve-page-1">
+					<dt>
+						<b></b>
+						<h2>购物指南</h2>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">购物流程</a></li>
+							<li><a href="#">会员介绍</a></li>
+							<li><a href="#">团购机票</a></li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">大家电</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="serve-page-2">
+					<dt>
+						<b></b>
+						<h2>配送方式</h2>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">购物流程</a></li>
+							<li><a href="#">会员介绍</a></li>
+							<li><a href="#">团购机票</a></li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">大家电</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="serve-page-3">
+					<dt>
+						<b></b>
+						<h2>支付方式</h2>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">购物流程</a></li>
+							<li><a href="#">会员介绍</a></li>
+							<li><a href="#">团购机票</a></li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">大家电</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="serve-page-4">
+					<dt>
+						<b></b>
+						<h2>售后服务</h2>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">购物流程</a></li>
+							<li><a href="#">会员介绍</a></li>
+							<li><a href="#">团购机票</a></li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">大家电</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="serve-page-5">
+					<dt>
+						<b></b>
+						<h2>特色服务</h2>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">购物流程</a></li>
+							<li><a href="#">会员介绍</a></li>
+							<li><a href="#">团购机票</a></li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">大家电</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<div class="serve-filiale">
+				<h2>京东商城各地分公司</h2>
+				<p class="des">京东商城全国各地有很多分公司的是啊，大概有200多家，京东商城全国各地有很多分公司的是啊，大概有200多家</p>
+				<p class="address">
+					<a href="#">查看各地分公司&gt;</a>
+				</p>
+			</div>
+		</div>
+		<!-- serve 结束 -->
+
+		<div id="capyright">
+			<div class="w">
+				<div class="capyright-link">
+					<p>
+						<a href="#">关于我们</a>
+						<span>|</span> 
+						<a href="#">联系我们</a>
+						<span>|</span> 
+						<a href="#">联系客服</a>
+						<span>|</span> 
+						<a href="#">合作招商</a>
+						<span>|</span> 
+						<a href="#">商家帮助</a>
+						<span>|</span> 
+						<a href="#">营销中心</a>
+						<span>|</span> 
+						<a href="#">手机京东</a>
+						<span>|</span> 
+						<a href="#">友情链接</a>
+						<span>|</span> 
+						<a href="#">销售联盟</a>
+						<span>|</span> 
+						<a href="#">京东社区</a>
+						<span>|</span> 
+						<a href="#">风险监测</a>
+						<span>|</span> 
+						<a href="#">隐私政策</a>
+						<span>|</span> 
+						<a href="#">京东公益</a>
+						<span>|</span> 
+						<a href="#">English Site</a>
+						<span>|</span> 
+						<a href="#">Media & IR</a>
+					</p>
+				</div>
+				<div class="capyright-info">
+					<p><a href="##">京公网安备 11000002000088号</a><span>|</span>京ICP证070359号<span>|</span> <a href="##">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span>|</span>新出发京零 字第大120007号</p>
+					<p>互联网出版许可证编号新出网证(京)字150号<span>|</span> <a href="##">出版物经营许可证</a><span>|</span> <a href="##">网络文化经营许可证京网文[2014]2148-348号</a><span>|</span>违法和不良信息举报电话：4006561155</p>
+					<p>Copyright © 2004 - 2018 京东JD.com 版权所有<span>|</span>消费者维权热线：4006067733 <a href="##">经营证照</a> <span>|</span> (京)网械平台备字(2018)第00003号 <span>|</span><a href="##"> 营业执照</a></p>
+				</div>
+				<div class="capyright-auth">
+					<a href="#"><img src="./images/ba1.gif"></a>
+					<a href="#"><img src="./images/ba2.gif"></a>
+					<a href="#"><img src="./images/ba3.gif"></a>
+					<a href="#"><img src="./images/ba4.gif"></a>
+				</div>
+			</div>
+		</div>
+		<!-- capy-right 结束-->
+	</div>
+	<!-- global-footer 页脚结束  -->
+	<!-- <script type="text/javascript" src="./public/js/jquery-1.8.3.min.js"></script> -->
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

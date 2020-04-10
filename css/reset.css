@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	background: #fff;
+	color:#000;
+}
+body{
+	font:12px/1.5 Arial,宋体;
+}
+
+a{
+	text-decoration: none;
+	color:#333;
+}
+a:hover{
+	text-decoration: underline;
+	color:#c00;
+}
+img,fieldset{
+	border:none;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+iframe{
+	display: block;
+	border:none;
+}
+ul,ol{
+	list-style:none;
+}
+fl-left{
+	float: left;
+}
+fl-right{
+	float: right;
+}
+fl-clear{
+	clear: both;
+}

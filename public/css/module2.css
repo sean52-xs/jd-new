@@ -1,0 +1,92 @@
+.module-modified{
+	width: 308px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border:1px solid #ccc;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.module-mo-title{
+	height: 39px;
+	background-color: #f3f3f3;
+	line-height: 39px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	padding:0px 8px;
+}
+.module-mo-title a{
+	float: right;
+	font-size: 14px;
+	color:#005ea7;
+}
+
+.common{
+	width: 100%;
+	height: 433px;
+	/*border:1px solid #c00;*/
+	margin-top: 20px;
+}
+.common-content{
+	width: 890px;
+	height: 433px;
+	border:1px solid blue;
+	float: left;
+}
+.details{
+	width: 680px;
+	height: 433px;
+	border-top:2px solid #ccc;
+	float: right;
+	overflow: hidden;
+}
+.list-top{
+	height: 40px;
+	width: 210px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #2e82d0;
+}
+.list-bottom{
+	width: 208px;
+	height: 392px;
+	border:1px solid #ccc;
+}
+.list-bottom a{
+	display: block;
+	width: 85px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #2e82d0;
+}
+.list-title ul{
+	padding:12px 0 0 15px;
+}
+.list-title li{
+	width: 85px;
+	height: 25px;
+	float: left;
+}
+.list-title ul a b{
+	padding:0 5px;
+	/*width: 2px;
+	height: 2px;
+	text-align: center;
+	line-height: 2px;
+	border:1px solid #c00;
+	background:#2e82d0;*/
+}
+.list-title li a:hover{
+	background:#2e82d0;
+	color: #fff;
+	text-decoration: none;
+}
+.common-ads{
+	width: 308px;
+	height: 431px;
+	border:1px solid green;
+	float: right;
+}
